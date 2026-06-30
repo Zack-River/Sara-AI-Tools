@@ -1,0 +1,273 @@
+{
+  "site": {
+    "name": "الزهراء",
+    "logoUrl": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/Logo.png"
+  },
+  "nav": {
+    "links": [
+      { "label": "الرئيسيه", "url": "#" },
+      { "label": "من نحن", "url": "#about-zahraa" },
+      { "label": "خدماتنا", "url": "#transport-pro" },
+      { "label": "العمره", "url": "#umrah-final" },
+      { "label": "تواصل معنا", "url": "#contact-form-pro" }
+    ],
+    "phone": "0562685953",
+    "whatsappUrl": "https://wa.me/966562685953"
+  },
+  "hero": {
+    "title1": "بوابتك لرحلة",
+    "title2": "روحانية لا تُنسى",
+    "subtitle": "نقدم لك أفضل خدمات الحج والعمرة والزيارة بخبرة تمتد لسنوات، لنضمن لك راحة البال والتفرغ للعبادة.",
+    "buttonPrimary": { "label": "احجز رحلتك الآن", "url": "https://wa.me/966544591931" },
+    "buttonSecondary": { "label": "اكتشف خدماتنا", "url": "#transport-pro" },
+    "stats": [
+      { "value": "15K+", "label": "معتمر وزائر" },
+      { "value": "10", "label": "سنوات خبرة" },
+      { "value": "50+", "label": "فندق فاخر" }
+    ],
+    "images": [
+      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/5db0f269417df8865ecdf81c8c83e18f.jpg",
+      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/1959325.jpg",
+      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/photo_2024-03-31_23-53-48.jpg"
+    ]
+  },
+  "about": {
+    "badge": "من نحن",
+    "titlePrefix": "شركة",
+    "titleHighlight": "الزهراء",
+    "titleSuffix": "للعمرة والزيارة",
+    "description": "نحن في شركة الزهراء نفخر بتقديم أرقى الخدمات لضيوف الرحمن. نسعى دائمًا لتوفير بيئة مريحة وآمنة تتيح للمعتمرين والزوار أداء مناسكهم بكل طمأنينة وخشوع.",
+    "features": [
+      {
+        "title": "خبرة عريقة",
+        "desc": "أكثر من 10 سنوات في خدمة ضيوف الرحمن وتقديم برامج متكاملة."
+      },
+      {
+        "title": "فريق متخصص",
+        "desc": "كوادر مؤهلة ومدربة لتقديم أفضل مستوى من الرعاية والاهتمام."
+      },
+      {
+        "title": "أسعار تنافسية",
+        "desc": "باقات متنوعة تناسب جميع الميزانيات دون المساومة على الجودة."
+      },
+      {
+        "title": "خدمة 24/7",
+        "desc": "دعم متواصل على مدار الساعة لضمان راحتكم وسلامتكم."
+      }
+    ],
+    "image1": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/5db0f269417df8865ecdf81c8c83e18f.jpg",
+    "image2": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/1959325.jpg"
+  },
+  "transport": {
+    "badge": "رحلة مريحة",
+    "titlePrefix": "خدمات",
+    "titleHighlight": "المواصلات",
+    "titleSuffix": "المتميزة",
+    "description": "أسطول حديث ومجهز لضمان راحتكم وسلامتكم في جميع تنقلاتكم",
+    "cards": [
+      {
+        "title": "حافلات VIP",
+        "desc": "حافلات حديثة ومكيفة توفر أقصى درجات الراحة للمجموعات",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/images.jpeg",
+        "tags": ["مقاعد مريحة", "تكييف ممتاز", "إنترنت مجاني"],
+        "link": "https://wa.me/966544591931"
+      },
+      {
+        "title": "سيارات عائلية",
+        "desc": "سيارات واسعة تناسب العائلات مع سائقين ذوي خبرة وكفاءة",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/toyota_hiace_vip_001.jpg",
+        "tags": ["خصوصية تامة", "مساحة واسعة", "أمان عالي"],
+        "link": "https://wa.me/966544591931"
+      },
+      {
+        "title": "سيارات فاخرة",
+        "desc": "خدمة نقل النخبة بسيارات فخمة لضمان تجربة سفر استثنائية",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/6db34960d70ceb21d58cfecffaf5f053-1.jpg",
+        "tags": ["رفاهية مطلقة", "استقبال VIP", "خدمة سريعة"],
+        "link": "https://wa.me/966544591931"
+      }
+    ]
+  },
+  "hotels": {
+    "badge": "إقامة فاخرة",
+    "title1": "باقات الفنادق",
+    "title2": "المميزة",
+    "description": "نقدم لكم أفضل خيارات الإقامة في فنادق مكة والمدينة المنورة بأسعار تنافسية وخدمات استثنائية",
+    "cards": [
+      {
+        "stars": 3,
+        "title": "فنادق 3 نجوم",
+        "type": "اقتصادية",
+        "desc": "إقامة مريحة واقتصادية بأسعار تناسب الجميع",
+        "features": ["غرف نظيفة ومريحة", "قريبة من المواصلات", "أسعار اقتصادية"],
+        "link": "https://wa.me/966544591931",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/279495.jpg"
+      },
+      {
+        "stars": 4,
+        "title": "فنادق 4 نجوم",
+        "type": "مميزة",
+        "desc": "توازن مثالي بين الراحة والسعر والجودة",
+        "features": ["بوفيه إفطار", "خدمة غرف", "قريبة من الحرم"],
+        "link": "https://wa.me/966544591931",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/fdd.jpg",
+        "isFeatured": true
+      },
+      {
+        "stars": 5,
+        "title": "فنادق 5 نجوم",
+        "type": "فاخرة",
+        "desc": "فخامة ورفاهية مطلقة لإقامة استثنائية",
+        "features": ["إطلالة على الحرم", "وجبات فاخرة", "خدمات VIP"],
+        "link": "https://wa.me/966544591931",
+        "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/photo_5929157654859596415_y.jpg"
+      }
+    ],
+    "stats": [
+      { "value": "50+", "label": "فندق متعاقد" },
+      { "value": "24/7", "label": "خدمة عملاء" },
+      { "value": "100%", "label": "ضمان الراحة" },
+      { "value": "VIP", "label": "خدمات خاصة" }
+    ]
+  },
+  "umrah": {
+    "badge": "رحلات روحانية",
+    "title": "رحلات العمرة اليومية",
+    "description": "نقدم لكم أفضل باقات العمرة بمدد مختلفة تناسب جميع الراغبين في أداء المناسك",
+    "packages": [
+      {
+        "title": "رحلات عمره",
+        "badge": "برونزية",
+        "days": "3 أيام",
+        "desc": "إقامة اقتصادية مريحة ومواصلات حديثة",
+        "link": "https://wa.me/966544591931"
+      },
+      {
+        "title": "رحلات عمره",
+        "badge": "فضية",
+        "days": "5 أيام",
+        "desc": "إقامة فاخرة ووجبات إفطار وبرنامج سياحي",
+        "link": "https://wa.me/966544591931"
+      },
+      {
+        "title": "رحلات عمره",
+        "badge": "ذهبية",
+        "days": "7 أيام",
+        "desc": "باقة متكاملة إقامة 5 نجوم وجميع الوجبات",
+        "link": "https://wa.me/966544591931",
+        "isFeatured": true
+      },
+      {
+        "title": "رحلات عمره",
+        "badge": "ملكية",
+        "days": "10 أيام",
+        "desc": "أشمل رحلة إقامة فاخرة وبرامج دينية وثقافية",
+        "link": "https://wa.me/966544591931"
+      }
+    ],
+    "schedule": {
+      "title": "جدول رحلات عمرة من ",
+      "titleHighlight": "الرياض",
+      "headers": ["رحلة العمره", "نوع الرحله", "عدد الايام"],
+      "rows": [
+        { "name": "رحلة يوم السبت", "type": "اقتصاديه", "days": "3 أيام" },
+        { "name": "عمرة يوم الاحد", "type": "اقتصاديه", "days": "3 أيام" },
+        { "name": "عمرة يوم الاثنين", "type": "VIP", "days": "3 – 5 أيام", "highlight": true },
+        { "name": "عمرة يوم الثلاثاء", "type": "اقتصاديه", "days": "3 أيام" },
+        { "name": "رحلة يوم الاربعاء", "type": "اقتصاديه", "days": "3 أيام" },
+        { "name": "رحلة يوم الخميس", "type": "VIP", "days": "3 – 5 أيام", "highlight": true }
+      ]
+    },
+    "button": { "label": "سارع بالاتصال لحجز رحلتك الآن", "url": "https://wa.me/966544591931" }
+  },
+  "blog": {
+    "badge": "مدونتنا",
+    "titlePrefix": "آخر ",
+    "titleHighlight": "المقالات",
+    "description": "نصائح وإرشادات روحانية لرحلة عمرة وزيارة مباركة إن شاء الله",
+    "articles": [
+      {
+        "id": 1,
+        "title": "فضل العمرة في شهر رمضان",
+        "date": "15 مارس 2025",
+        "readTime": "5 دقائق",
+        "category": "روحانيات",
+        "desc": "تعادل عمرة رمضان حجة مع النبي ﷺ، فما هي أفضل الأعمال في هذا الشهر الفضيل؟",
+        "img": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/photo_5929157654859596415_y.jpg",
+        "content": "<p style=\"margin-bottom:15px\">💫 <strong style=\"color:#C5AD7C\">قال النبي ﷺ: \"عمرة في رمضان تعدل حجة\" أو \"حجة معي\"</strong> - متفق عليه.</p><p style=\"margin-bottom:15px\">شهر رمضان المبارك هو شهر الرحمة والمغفرة، وفيه تتضاعف الحسنات وتُفتح أبواب الجنة. وتعتبر العمرة في هذا الشهر الفضيل من أعظم القربات إلى الله تعالى.</p><div style=\"background:rgba(197,173,124,0.08); padding:18px; border-radius:20px; margin:20px 0\"><h4 style=\"color:#FFD700; margin:0 0 12px 0\">🌸 أفضل الأعمال في عمرة رمضان:</h4><ul style=\"margin-right:20px; margin-bottom:0\"><li style=\"margin-bottom:8px\">📿 الإكثار من التلبية والدعاء أثناء الطواف والسعي</li><li style=\"margin-bottom:8px\">🤲 الدعاء عند الملتزم وشرب ماء زمزم بنية صادقة</li><li style=\"margin-bottom:8px\">📖 ختم القرآن الكريم في الحرمين الشريفين</li><li style=\"margin-bottom:8px\">🌙 قيام الليل والصلاة في الروضة الشريفة</li></ul></div><p>نسأل الله أن يتقبل منا ومنكم صالح الأعمال، وأن يبلغنا وإياكم عمرة مقبولة في رمضان.</p>"
+      },
+      {
+        "id": 2,
+        "title": "10 نصائح ذهبية لرحلة عمرة ميسرة",
+        "date": "10 مارس 2025",
+        "readTime": "4 دقائق",
+        "category": "نصائح مهمة",
+        "desc": "من التخطيط المسبق إلى أداء المناسك، نقدم لك أهم النصائح لرحلة روحانية سهلة ومباركة.",
+        "img": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/348008867.jpg",
+        "content": "<p style=\"margin-bottom:15px\">✨ رحلة العمرة تحتاج إلى تحضير جيد لتكون مريحة وروحانية. إليك أهم النصائح التي تجعل تجربتك لا تُنسى:</p><div style=\"background:rgba(197,173,124,0.08); padding:18px; border-radius:20px; margin:20px 0\"><h4 style=\"color:#FFD700; margin:0 0 12px 0\">📌 نصائح ذهبية:</h4><ol style=\"margin-right:20px; margin-bottom:0\"><li style=\"margin-bottom:6px\"><strong>التخطيط المسبق:</strong> احجز رحلتك قبل موعد السفر بوقت كافٍ</li><li style=\"margin-bottom:6px\"><strong>تعلم المناسك:</strong> احرص على معرفة أحكام العمرة وأدعية الطواف والسعي</li><li style=\"margin-bottom:6px\"><strong>حقيبة متكاملة:</strong> احضر معك الإحرام والأدوية الشخصية</li><li style=\"margin-bottom:6px\"><strong>اختيار فندق قريب:</strong> يسهل عليك الذهاب إلى الحرم في أي وقت</li><li style=\"margin-bottom:6px\"><strong>تنظيم الوقت:</strong> وزع عباداتك بين الطواف والصلاة والدعاء</li></ol></div><p>نتمنى لك رحلة روحانية مباركة مليئة بالإيمان والخشوع.</p>"
+      },
+      {
+        "id": 3,
+        "title": "أفضل الأدعية المستجابة في الحرمين",
+        "date": "5 مارس 2025",
+        "readTime": "3 دقائق",
+        "category": "أدعية مستجابة",
+        "desc": "مجموعة من الأدعية المأثورة في المسجد الحرام والمسجد النبوي مع أوقات الإجابة.",
+        "img": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/279495.jpg",
+        "content": "<p style=\"margin-bottom:15px\">🤲 <strong style=\"color:#C5AD7C\">الدعاء هو العبادة</strong>، وهو سلاح المؤمن في كل زمان ومكان. وفي الحرمين الشريفين، تتضاعف الأجور وتُستجاب الدعوات.</p><div style=\"background:rgba(197,173,124,0.08); padding:18px; border-radius:20px; margin:20px 0\"><h4 style=\"color:#FFD700; margin:0 0 12px 0\">🕋 أفضل أوقات الدعاء:</h4><ul style=\"margin-right:20px; margin-bottom:0\"><li style=\"margin-bottom:6px\">⏰ بين الأذان والإقامة</li><li style=\"margin-bottom:6px\">⏰ عند النظر إلى الكعبة المشرفة</li><li style=\"margin-bottom:6px\">⏰ في السجود داخل الحرم</li><li style=\"margin-bottom:6px\">⏰ في الثلث الأخير من الليل</li></ul></div><div style=\"background:rgba(197,173,124,0.05); padding:18px; border-radius:20px; margin:20px 0\"><h4 style=\"color:#FFD700; margin:0 0 12px 0\">📿 أدعية مستحبة:</h4><p style=\"margin-bottom:8px\"><strong>دعاء الطواف:</strong> \"رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ\"</p><p><strong>دعاء بين الركن اليماني والحجر الأسود:</strong> \"رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ\"</p></div><p>اجعل لدعائك حضوراً في قلبك، وتيقن بالإجابة، فإن الله لا يرد من دعاه بصدق.</p>"
+      }
+    ],
+    "button": "عرض جميع المقالات"
+  },
+  "contact": {
+    "badge": "تواصل معنا",
+    "titlePrefix": "نحن هنا ",
+    "titleHighlight": "لخدمتك",
+    "description": "فريقنا متواجد على مدار الساعة للرد على استفساراتكم وحجوزاتكم. تواصل معنا وسنكون سعداء بخدمتكم.",
+    "info": {
+      "whatsapp": "0562685953",
+      "phone": "544591931",
+      "email": "info@al-zahraa-sa.com",
+      "address": "الرياض - المملكة العربية السعودية",
+      "hours": "نعمل على مدار الساعة طوال أيام الأسبوع"
+    },
+    "form": {
+      "badge": "أرسل رسالتك",
+      "title": "احجز استشارتك المجانية",
+      "nameLabel": "الاسم كاملاً",
+      "phoneLabel": "رقم الجوال",
+      "emailLabel": "البريد الإلكتروني",
+      "serviceLabel": "نوع الخدمة",
+      "messageLabel": "الرسالة",
+      "services": ["عمرة", "زيارة", "فنادق", "مواصلات", "باقة متكاملة"],
+      "button": "إرسال الطلب",
+      "note": "سنتواصل معك خلال 24 ساعة",
+      "successTitle": "تم الإرسال بنجاح!",
+      "successDesc": "شكراً لتواصلك مع شركة الزهراء. سنقوم بالرد عليك في أقرب وقت ممكن.",
+      "successButton": "حسناً"
+    }
+  },
+  "footer": {
+    "about": "نحن شركة رائدة في تقديم خدمات السفر والعمرة والزيارة، حيث نسعى دائماً إلى تقديم تجربة روحانية لضيوفنا.",
+    "linksTitle": "أهم الروابط",
+    "links": [
+      { "label": "الرئيسيه", "url": "https://al-zahraa-sa.com/mmm/" },
+      { "label": "من نحن", "url": "https://al-zahraa-sa.com/%d9%85%d9%86-%d9%86%d8%ad%d9%86/" },
+      { "label": "خدماتنا", "url": "https://al-zahraa-sa.com/%d8%ae%d8%af%d9%85%d8%a7%d8%aa%d9%86%d8%a7/" },
+      { "label": "تواصل معنا", "url": "https://al-zahraa-sa.com/%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%85%d8%b9%d9%86%d8%a7/" }
+    ],
+    "contactTitle": "كن دائماً على تواصل معنا",
+    "contact": {
+      "whatsapp": "0562685953",
+      "phone": "544591931",
+      "email": "abozahre9@gmail.com"
+    },
+    "addressTitle": "العنوان",
+    "address": {
+      "country": "المملكة العربية السعودية",
+      "city": "الرياض",
+      "hours": "يومياً من 8 صباحاً حتى 10 مساءً"
+    },
+    "copyright": "جميع الحقوق محفوظة © 2024 لموقع الزهراء"
+  }
+}
