@@ -38,18 +38,18 @@ const TestimonialsSection = () => {
           </h2>
           <div style={{ width: 70, height: 3, background: 'var(--color-accent)', margin: '18px 0', borderRadius: 3 }} />
           
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginTop: 20, flexWrap: 'wrap' }}>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)' }}>
-              <span style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+١٠٠٠</span>
-              <span style={{ color: 'white', fontSize: 'var(--text-sm)' }}>طالب مستفيد</span>
+          <div className="testi-stats-container" style={{ display: 'flex', justifyContent: 'center', gap: 20, marginTop: 20, flexWrap: 'wrap' }}>
+            <div className="testi-stat-card" style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)', textAlign: 'center' }}>
+              <span className="testi-stat-number" style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+١٠٠٠</span>
+              <span className="testi-stat-label" style={{ color: 'white', fontSize: 'var(--text-sm)' }}>طالب مستفيد</span>
             </div>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)' }}>
-              <span style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+١٥٠٠</span>
-              <span style={{ color: 'white', fontSize: 'var(--text-sm)' }}>تقييم إيجابي</span>
+            <div className="testi-stat-card" style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)', textAlign: 'center' }}>
+              <span className="testi-stat-number" style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+١٥٠٠</span>
+              <span className="testi-stat-label" style={{ color: 'white', fontSize: 'var(--text-sm)' }}>تقييم إيجابي</span>
             </div>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)' }}>
-              <span style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+٥٠</span>
-              <span style={{ color: 'white', fontSize: 'var(--text-sm)' }}>أداة مشروحة</span>
+            <div className="testi-stat-card" style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 25px', borderRadius: 'var(--radius-md)', textAlign: 'center' }}>
+              <span className="testi-stat-number" style={{ color: 'var(--color-accent)', fontSize: 'var(--text-xl)', fontWeight: 800, display: 'block' }}>+٥٠</span>
+              <span className="testi-stat-label" style={{ color: 'white', fontSize: 'var(--text-sm)' }}>أداة مشروحة</span>
             </div>
           </div>
         </div>
@@ -61,6 +61,12 @@ const TestimonialsSection = () => {
             @media (max-width: 768px) {
               .testi-author-card { height: auto !important; padding: 40px 20px !important; }
               .testi-slider-card { height: 400px !important; }
+            }
+            @media (max-width: 600px) {
+              .testi-stats-container { gap: 8px !important; flex-wrap: nowrap !important; width: 100%; }
+              .testi-stat-card { padding: 10px 8px !important; flex: 1; min-width: 0; }
+              .testi-stat-number { font-size: 0.95rem !important; }
+              .testi-stat-label { font-size: 0.55rem !important; white-space: nowrap; }
             }
           `}</style>
           

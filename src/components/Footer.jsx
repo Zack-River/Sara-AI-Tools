@@ -67,6 +67,11 @@ const Footer = () => {
 
           {/* Col 3: Contact */}
           <div style={{ animation: 'footerFadeUp 0.6s ease-out 0.2s both' }}>
+            <style>{`
+              @media (max-width: 400px) {
+                .footer-contact-value { font-size: 0.8rem !important; }
+              }
+            `}</style>
             <h4 style={{ color: 'var(--color-accent)', fontSize: 'var(--text-lg)', fontWeight: 700, marginBottom: 25, position: 'relative', display: 'inline-block' }}>
               تواصل معنا
               <span style={{ position: 'absolute', bottom: -10, right: 0, width: 45, height: 2, background: 'var(--color-accent)', borderRadius: 2 }} />
@@ -81,19 +86,25 @@ const Footer = () => {
                 </div>
                 <div>
                   <span style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.5)', display: 'block' }}>{item.label}</span>
-                  <span style={{ color: 'white', fontSize: '0.95rem', fontWeight: 600, direction: 'ltr', display: 'inline-block' }}>{item.value}</span>
+                  <span className="footer-contact-value" style={{ color: 'white', fontSize: '0.95rem', fontWeight: 600, direction: 'ltr', display: 'inline-block', whiteSpace: 'nowrap' }}>{item.value}</span>
                 </div>
               </div>
             ))}
           </div>
 
           {/* Col 4: Address */}
-          <div style={{ animation: 'footerFadeUp 0.6s ease-out 0.3s both' }}>
+          <div style={{ animation: 'footerFadeUp 0.6s ease-out 0.3s both', display: 'flex', flexDirection: 'column', height: '100%' }}>
+            <style>{`
+              @media (max-width: 400px) {
+                .footer-location-block { margin-bottom: 8px !important; }
+                .footer-support-box { padding: 12px !important; margin-top: 5px !important; }
+              }
+            `}</style>
             <h4 style={{ color: 'var(--color-accent)', fontSize: 'var(--text-lg)', fontWeight: 700, marginBottom: 25, position: 'relative', display: 'inline-block' }}>
               موقعنا
               <span style={{ position: 'absolute', bottom: -10, right: 0, width: 45, height: 2, background: 'var(--color-accent)', borderRadius: 2 }} />
             </h4>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 25 }}>
+            <div className="footer-location-block" style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 25 }}>
               <div style={{ width: 38, height: 38, background: 'rgba(197,173,124,0.12)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, color: 'white' }}>
                 <MapPin size={18} />
               </div>
@@ -101,7 +112,10 @@ const Footer = () => {
                 <span style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.5)', display: 'block' }}>المملكة العربية السعودية</span>
               </div>
             </div>
-            <div style={{ background: 'rgba(197,173,124,0.08)', borderRadius: 'var(--radius-md)', padding: 18, marginTop: 15 }}>
+            
+            <div style={{ flex: 1 }}></div>
+
+            <div className="footer-support-box" style={{ background: 'rgba(197,173,124,0.08)', borderRadius: 'var(--radius-md)', padding: 18, marginTop: 15 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 10 }}>
                 <Clock size={16} color="var(--color-accent)" />
                 <span style={{ color: 'var(--color-accent)', fontSize: 'var(--text-sm)', fontWeight: 700 }}>ساعات الدعم</span>
