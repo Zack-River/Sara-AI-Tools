@@ -48,6 +48,18 @@
   --transition-bounce: 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 }
 
+@media (max-width: 767px) {
+  :root {
+    --text-xs: 0.55rem;
+    --text-sm: 0.65rem;
+    --text-base: 0.75rem;
+    --text-lg: 0.9rem;
+    --text-xl: 1.1rem;
+    --text-2xl: 1.3rem;
+    --text-3xl: 1.6rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -164,11 +176,6 @@ body {
 /* ======================================================
    NAVBAR
    ====================================================== */
-@media (max-width: 900px) {
-  .main-nav { display: none !important; }
-  .booking-btn { display: none !important; }
-  .menu-toggle-btn { display: flex !important; }
-}
 
 /* ======================================================
    HERO SECTION — Particles (m1–m4) & Glow (p1–p3)
@@ -420,7 +427,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .layout-4col { grid-template-columns: 1fr; }
+  .layout-4col { grid-template-columns: 1fr 1fr; gap: 20px; }
   .layout-3col { grid-template-columns: 1fr; }
 }
 

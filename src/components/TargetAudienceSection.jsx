@@ -75,9 +75,15 @@ const TargetAudienceSection = () => {
           </div>
 
           {/* Left column: Image */}
-          <div style={{ animation: 'aboutFadeLeft 0.8s ease-out 0.4s both', display: 'flex', flexDirection: 'column', height: '100%' }}>
-            <div className="about-spirit-card" style={{ position: 'relative', borderRadius: 35, overflow: 'hidden', boxShadow: '0 25px 45px -12px rgba(0,0,0,0.2)', flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.5)' }}>
-              <img src="/images/audience.webp" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'block', objectFit: 'cover' }} alt="Students" loading="lazy" decoding="async" />
+          <div style={{ animation: 'aboutFadeLeft 0.8s ease-out 0.4s both', position: 'relative', height: '100%' }}>
+            <style>{`
+              .target-image-wrapper { position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
+              @media (max-width: 768px) {
+                .target-image-wrapper { position: relative; height: auto; aspect-ratio: 1/1; }
+              }
+            `}</style>
+            <div className="about-spirit-card target-image-wrapper" style={{ borderRadius: 35, overflow: 'hidden', boxShadow: '0 25px 45px -12px rgba(0,0,0,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.5)' }}>
+              <img src="/images/audience.webp" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover' }} alt="Students" loading="lazy" decoding="async" />
             </div>
           </div>
 

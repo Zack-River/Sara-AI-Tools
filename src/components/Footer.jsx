@@ -32,7 +32,7 @@ const Footer = () => {
             </p>
             <div style={{ display: 'flex', gap: 12, marginTop: 25 }}>
               {[
-                { href: '#', icon: <FaWhatsapp size={18} /> },
+                { href: 'https://wa.me/966575109308', icon: <FaWhatsapp size={18} /> },
               ].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" className="footer-social-icon"
                   style={{ width: 40, height: 40, background: 'rgba(255,255,255,0.06)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: '0.3s', textDecoration: 'none', color: '#C5AD7C' }}>
@@ -98,8 +98,7 @@ const Footer = () => {
                 <MapPin size={18} />
               </div>
               <div>
-                <span style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.5)', display: 'block' }}>جمهورية مصر العربية</span>
-                <span style={{ color: 'white', fontSize: '0.95rem', fontWeight: 500 }}>القاهرة</span>
+                <span style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.5)', display: 'block' }}>المملكة العربية السعودية</span>
               </div>
             </div>
             <div style={{ background: 'rgba(197,173,124,0.08)', borderRadius: 'var(--radius-md)', padding: 18, marginTop: 15 }}>

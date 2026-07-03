@@ -56,9 +56,16 @@ const TestimonialsSection = () => {
 
         {/* Layout: Author info & Testimonials */}
         <div className="layout-1x2" style={{ alignItems: 'stretch' }}>
+          <style>{`
+            .testi-author-card, .testi-slider-card { height: 450px; }
+            @media (max-width: 768px) {
+              .testi-author-card { height: auto !important; padding: 40px 20px !important; }
+              .testi-slider-card { height: 400px !important; }
+            }
+          `}</style>
           
           {/* Author info (Glass card) */}
-          <div style={{ background: 'rgba(255,255,255,0.03)', backdropFilter: 'blur(10px)', border: '1px solid rgba(197,173,124,0.1)', borderRadius: 'var(--radius-lg)', padding: 30, textAlign: 'center', boxShadow: '0 10px 30px rgba(0,0,0,0.2)', display: 'flex', flexDirection: 'column', justifyContent: 'center', height: 450 }}>
+          <div className="testi-author-card" style={{ background: 'rgba(255,255,255,0.03)', backdropFilter: 'blur(10px)', border: '1px solid rgba(197,173,124,0.1)', borderRadius: 'var(--radius-lg)', padding: 30, textAlign: 'center', boxShadow: '0 10px 30px rgba(0,0,0,0.2)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <div style={{ width: 80, height: 80, background: 'linear-gradient(135deg, var(--color-accent), var(--color-highlight))', borderRadius: '50%', margin: '0 auto 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)' }}>
               <Star size={32} />
             </div>
@@ -70,7 +77,7 @@ const TestimonialsSection = () => {
           </div>
 
           {/* Testimonials Carousel (Glass style) */}
-          <div style={{ background: 'rgba(255,255,255,0.03)', backdropFilter: 'blur(10px)', border: '1px solid rgba(197,173,124,0.1)', borderRadius: 'var(--radius-lg)', padding: 20, boxShadow: '0 10px 30px rgba(0,0,0,0.2)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', position: 'relative', height: 450 }}>
+          <div className="testi-slider-card" style={{ background: 'rgba(255,255,255,0.03)', backdropFilter: 'blur(10px)', border: '1px solid rgba(197,173,124,0.1)', borderRadius: 'var(--radius-lg)', padding: 20, boxShadow: '0 10px 30px rgba(0,0,0,0.2)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', position: 'relative' }}>
             
             <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', overflow: 'hidden', borderRadius: '10px', background: 'rgba(0,0,0,0.2)', cursor: 'zoom-in' }} onClick={() => setModalOpen(true)}>
               <img 

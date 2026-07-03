@@ -7,7 +7,6 @@ const navLinks = [
   { label: 'لمن هذا الدليل؟', url: '#target-audience', icon: <GraduationCap size={16} /> },
   { label: 'المحتويات', url: '#features', icon: <Lightbulb size={16} /> },
   { label: 'آراء الطلاب', url: '#testimonials', icon: <MessageCircle size={16} /> },
-  { label: 'اطلب الآن', url: '#cta-section', icon: <Smartphone size={16} /> },
 ];
 
 const Navbar = () => {
@@ -61,7 +60,7 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Nav Links */}
-          <nav className="main-nav" style={{ display: 'flex', alignItems: 'center', gap: 35 }}>
+          <nav className="main-nav" style={{ display: 'flex', alignItems: 'center', gap: 'clamp(10px, 2vw, 35px)' }}>
             {navLinks.map((link, idx) => (
               <a
                 key={idx}
@@ -69,14 +68,15 @@ const Navbar = () => {
                 style={{
                   color: 'white',
                   textDecoration: 'none',
-                  fontSize: '1rem',
+                  fontSize: 'clamp(0.75rem, 1.2vw, 1rem)',
                   fontWeight: 600,
                   transition: '0.3s',
                   position: 'relative',
                   padding: '8px 0',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: 6,
+                  gap: 'clamp(4px, 0.5vw, 6px)',
+                  whiteSpace: 'nowrap',
                 }}
                 onMouseOver={e => e.currentTarget.style.color = '#C5AD7C'}
                 onMouseOut={e => e.currentTarget.style.color = 'white'}
@@ -95,16 +95,17 @@ const Navbar = () => {
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
-                gap: 8,
+                gap: 'clamp(4px, 1vw, 8px)',
                 background: 'linear-gradient(135deg, #C5AD7C, #b89a6a)',
                 color: '#0A192F',
-                padding: '10px 24px',
+                padding: 'clamp(6px, 1vw, 10px) clamp(12px, 2vw, 24px)',
                 borderRadius: 50,
                 textDecoration: 'none',
                 fontWeight: 800,
-                fontSize: '0.85rem',
+                fontSize: 'clamp(0.7rem, 1vw, 0.85rem)',
                 transition: '0.3s',
                 boxShadow: '0 4px 12px rgba(197,173,124,0.3)',
+                whiteSpace: 'nowrap',
               }}
               onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(197,173,124,0.4)'; }}
               onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(197,173,124,0.3)'; }}
@@ -234,8 +235,11 @@ const Navbar = () => {
       <style>{`
         .nav-logo-text { display: block !important; }
         @media (max-width: 900px) {
+          .nav-logo-text { display: none !important; }
+        }
+        @media (max-width: 768px) {
           .main-nav { display: none !important; }
-          .booking-btn { display: none !important; }
+          .booking-btn { display: flex !important; }
           .menu-toggle-btn { display: flex !important; }
         }
       `}</style>

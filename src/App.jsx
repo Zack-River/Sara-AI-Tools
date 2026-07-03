@@ -39,7 +39,7 @@ function App() {
       
       <Suspense fallback={null}>
         <Footer />
-        <WhatsAppButton phoneNumber="966500000000" />
+        <WhatsAppButton phoneNumber="+966575109308" />
       </Suspense>
     </div>
   );

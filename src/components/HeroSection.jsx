@@ -66,10 +66,30 @@ const HeroSection = () => {
 
       {/* Content */}
       <div style={{ width: '100%', position: 'relative', zIndex: 2, maxWidth: 1280, margin: '0 auto', padding: '60px 30px 120px' }}>
-        <div className="layout-1x1" style={{ position: 'relative', zIndex: 2 }}>
+        <style>{`
+          .hero-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; align-items: center; grid-template-areas: "text images" "buttons buttons"; }
+          .hero-text { grid-area: text; }
+          .hero-images { grid-area: images; }
+          .hero-btn-container { grid-area: buttons; display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap; margin-top: 40px; }
+          @media (max-width: 768px) {
+            .hero-grid { grid-template-columns: 1fr; grid-template-areas: "text" "buttons" "images"; }
+            .hero-btn-container { margin-top: 10px; margin-bottom: 20px; gap: 10px; }
+            .hero-btn-container a { padding: 12px 15px !important; font-size: 0.85rem !important; flex: 1; text-align: center; justify-content: center; white-space: nowrap !important; }
+          }
+          @media (max-width: 1024px) and (min-width: 769px) {
+            .hero-grid { gap: 15px; }
+            .main-title { font-size: 1.8rem !important; }
+            .sub-title { font-size: 1.1rem !important; }
+            .hero-desc { font-size: 0.85rem !important; margin-bottom: 20px !important; }
+            .hero-images { max-width: 320px !important; }
+            .hero-stats { gap: 15px !important; }
+            .hero-stats-number { font-size: 1.3rem !important; }
+          }
+        `}</style>
+        <div className="hero-grid" style={{ position: 'relative', zIndex: 2 }}>
 
           {/* Text side */}
-          <div style={{ animation: 'fUp 0.9s ease-out' }}>
+          <div className="hero-text" style={{ animation: 'fUp 0.9s ease-out' }}>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: 10, background: 'rgba(10,25,47,0.06)', padding: '8px 24px', borderRadius: 50, fontSize: '0.9rem', color: '#0A192F', fontWeight: 600, marginBottom: 30 }}>
               <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 24, height: 24, background: '#C5AD7C', color: 'white', borderRadius: '50%', animation: 'pd 1.5s infinite' }}>
                 <Rocket size={12} />
@@ -78,75 +98,73 @@ const HeroSection = () => {
             </div>
 
             <h1 style={{ margin: '0 0 20px' }}>
-              <span style={{ display: 'block', fontSize: 'var(--text-3xl)', fontWeight: 900, color: 'var(--color-primary)', lineHeight: 1.2 }}>
+              <span className="main-title" style={{ display: 'block', fontSize: 'var(--text-3xl)', fontWeight: 900, color: 'var(--color-primary)', lineHeight: 1.2 }}>
                 دليل أدوات الذكاء الاصطناعي
               </span>
-              <span style={{ display: 'block', fontSize: 'var(--text-xl)', fontWeight: 700, color: 'var(--color-accent)', marginTop: 10 }}>
+              <span className="sub-title" style={{ display: 'block', fontSize: 'var(--text-xl)', fontWeight: 700, color: 'var(--color-accent)', marginTop: 10 }}>
                 للطالب السعودي
               </span>
             </h1>
 
             <div style={{ width: 70, height: 4, background: '#C5AD7C', margin: '20px 0 25px', borderRadius: 2 }} />
 
-            <p style={{ fontSize: '1.05rem', lineHeight: 1.7, color: '#4a5568', marginBottom: 30 }}>
+            <p className="hero-desc" style={{ fontSize: '1.05rem', lineHeight: 1.7, color: '#4a5568', marginBottom: 30 }}>
               وفّر وقتك في المذاكرة... وخلّ الذكاء الاصطناعي ينجز عنك المهام الروتينية.<br /><br />
               تم جمع أفضل أدوات الذكاء الاصطناعي في دليل واحد، مع شرح مختصر ورابط مباشر لكل أداة، عشان تقدر تبدأ تستخدمها من أول يوم.
             </p>
 
             {/* Stats */}
-            <div style={{ display: 'flex', gap: 30, marginBottom: 40, flexWrap: 'wrap' }}>
+            <div className="hero-stats" style={{ display: 'flex', gap: 30, marginBottom: 40, flexWrap: 'wrap' }}>
               <div style={{ textAlign: 'center' }}>
-                <span style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+١٠٠٠</span>
+                <span className="hero-stats-number" style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+١٠٠٠</span>
                 <span style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-muted)' }}>طالب مستفيد</span>
               </div>
               <div style={{ textAlign: 'center' }}>
-                <span style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+١٥٠٠</span>
+                <span className="hero-stats-number" style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+١٥٠٠</span>
                 <span style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-muted)' }}>تقييم إيجابي</span>
               </div>
               <div style={{ width: 1, height: 40, background: 'rgba(0,0,0,0.1)' }} />
               <div style={{ textAlign: 'center' }}>
-                <span style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+٥٠</span>
+                <span className="hero-stats-number" style={{ display: 'block', fontSize: 'var(--text-2xl)', fontWeight: 800, color: 'var(--color-primary)' }}>+٥٠</span>
                 <span style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-muted)' }}>أداة مشروحة</span>
               </div>
             </div>
-
-
           </div>
 
           {/* Images side */}
-          <div>
-            <div style={{ borderRadius: 30, overflow: 'hidden', marginBottom: 20, boxShadow: '0 20px 40px -15px rgba(0,0,0,0.2)' }}>
+          <div className="hero-images" style={{ maxWidth: 600, margin: '0 auto', width: '100%' }}>
+            <div style={{ borderRadius: 20, overflow: 'hidden', marginBottom: 15, boxShadow: '0 20px 40px -15px rgba(0,0,0,0.2)' }}>
               <img
                 src="/images/hero_main.webp"
-                style={{ width: '100%', height: 320, objectFit: 'cover', display: 'block' }}
+                style={{ width: '100%', aspectRatio: '16/11', objectFit: 'cover', display: 'block' }}
                 alt="AI Tools Guide"
                 loading="lazy"
               />
             </div>
-            <div className="layout-3col">
-              <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
+              <div style={{ borderRadius: 15, overflow: 'hidden', aspectRatio: '1/1' }}>
                 <img src="/images/hero_ai.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="AI Technology" loading="lazy" />
               </div>
-              <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
+              <div style={{ borderRadius: 15, overflow: 'hidden', aspectRatio: '1/1' }}>
                 <img src="/images/hero_learn.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Learning" loading="lazy" />
               </div>
-              <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
+              <div style={{ borderRadius: 15, overflow: 'hidden', aspectRatio: '1/1' }}>
                 <img src="/images/hero_student.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Student" loading="lazy" />
               </div>
             </div>
           </div>
 
-        </div>
+          {/* Centered Buttons */}
+          <div className="hero-btn-container">
+            <a href="https://wa.me/966575109308" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر الواتساب">
+              <MessageCircle size={20} />
+              اطلب الدليل الآن
+            </a>
+            <a href="#what-inside" className="btn-outline">
+              ماذا داخل الدليل؟
+            </a>
+          </div>
 
-        {/* Centered Buttons */}
-        <div className="hero-buttons" style={{ display: 'flex', justifyContent: 'center', gap: 20, flexWrap: 'wrap', marginTop: 60, position: 'relative', zIndex: 2 }}>
-          <a href="https://wa.me/966575109308" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر الواتساب">
-            <MessageCircle size={20} />
-            اطلب الدليل الآن
-          </a>
-          <a href="#what-inside" className="btn-outline">
-            ماذا داخل الدليل؟
-          </a>
         </div>
       </div>
 
