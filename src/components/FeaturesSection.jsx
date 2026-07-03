@@ -72,7 +72,7 @@ const FeaturesSection = () => {
           <div style={{ width: 60, height: 3, background: 'var(--color-accent)', margin: '15px auto' }} />
         </div>
 
-        {/* Features cards */}
+        {/* Features cards (OLD DESIGN) 
         <div className="hotels-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 25, margin: '30px 0 50px' }}>
           {features.map((f, i) => (
             <div key={i} className="hotel-pro-card" style={{ background: 'var(--color-bg-light)', borderRadius: 'var(--radius-md)', overflow: 'hidden', boxShadow: '0 8px 25px -8px rgba(0,0,0,0.05)', border: '1px solid rgba(197,173,124,0.1)' }}>
@@ -84,6 +84,21 @@ const FeaturesSection = () => {
               </div>
             </div>
           ))}
+        </div>
+        */}
+
+        {/* Features list (NEW DESIGN) */}
+        <div style={{ maxWidth: 800, margin: '30px auto 50px', background: 'var(--color-bg-light)', borderRadius: 'var(--radius-lg)', padding: '40px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid rgba(197,173,124,0.1)' }}>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            {features.map((f, i) => (
+              <li key={i} style={{ display: 'flex', alignItems: 'center', gap: 15, marginBottom: i === features.length - 1 ? 0 : 25, fontSize: 'var(--text-lg)', fontWeight: 600, color: 'var(--color-primary)' }}>
+                <div style={{ width: 35, height: 35, borderRadius: '50%', background: 'rgba(197,173,124,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-accent)', flexShrink: 0 }}>
+                  <CheckCheck size={20} />
+                </div>
+                {f.title}
+              </li>
+            ))}
+          </ul>
         </div>
 
       </div>

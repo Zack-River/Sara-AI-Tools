@@ -25,7 +25,7 @@ const Footer = () => {
               <div style={{ width: 45, height: 45, background: 'var(--color-accent)', borderRadius: 'var(--radius-sm)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)' }}>
                 <BookOpen size={24} />
               </div>
-              <h3 style={{ color: 'white', fontSize: 'var(--text-xl)', fontWeight: 800, margin: 0 }}>دليل الذكاء الاصطناعي</h3>
+              <h3 style={{ color: 'white', fontSize: '1.3rem', fontWeight: 800, margin: 0 }}>دليل الذكاء الاصطناعي</h3>
             </div>
             <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.8, fontSize: 'var(--text-sm)', marginBottom: 25 }}>
               جمعنا لك أفضل أدوات الذكاء الاصطناعي في مكان واحد، لتوفير وقتك وجهدك في مسيرتك الأكاديمية.
@@ -51,7 +51,7 @@ const Footer = () => {
             <ul style={{ listStyle: 'none', padding: 0, margin: '10px 0 0' }}>
               {[
                 { href: '#who-for', label: 'لمن هذا الدليل؟' },
-                { href: '#what-inside', label: 'المحتويات' },
+                { href: '#features', label: 'المحتويات' },
                 { href: '#testimonials', label: 'آراء الطلاب' },
                 { href: '#cta-section', label: 'اطلب الدليل' },
               ].map((link, i) => (
