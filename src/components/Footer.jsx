@@ -32,9 +32,7 @@ const Footer = () => {
             </p>
             <div style={{ display: 'flex', gap: 12, marginTop: 25 }}>
               {[
-                { href: '#', icon: <FaFacebook size={18} /> },
                 { href: '#', icon: <FaWhatsapp size={18} /> },
-                { href: '#', icon: <FaTwitter size={18} /> },
               ].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" className="footer-social-icon"
                   style={{ width: 40, height: 40, background: 'rgba(255,255,255,0.06)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: '0.3s', textDecoration: 'none', color: '#C5AD7C' }}>
@@ -74,9 +72,8 @@ const Footer = () => {
               <span style={{ position: 'absolute', bottom: -10, right: 0, width: 45, height: 2, background: 'var(--color-accent)', borderRadius: 2 }} />
             </h4>
             {[
-              { icon: <MessageCircle size={18} />, label: 'واتس آب', value: '+201017346421' },
-              { icon: <Phone size={18} />, label: 'هاتف', value: '+201017346421' },
-              { icon: <Mail size={18} />, label: 'البريد الإلكتروني', value: 'info@ai-guide.com' },
+              { icon: <MessageCircle size={18} />, label: 'واتس آب', value: '+966 57 510 9308' },
+              { icon: <Phone size={18} />, label: 'هاتف', value: '057 510 9308' },
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 18 }}>
                 <div style={{ width: 38, height: 38, background: 'rgba(197,173,124,0.12)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, color: 'white' }}>

@@ -30,7 +30,7 @@ const CTASection = () => {
             ابدأ باستخدام الذكاء الاصطناعي بطريقة صحيحة، ووفّر وقتك وجهدك في الدراسة.
           </p>
 
-          <a href="https://wa.me/+201017346421" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر واتساب" style={{ fontSize: 'var(--text-lg)', padding: '18px 45px' }}>
+          <a href="https://wa.me/966575109308" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر واتساب" style={{ fontSize: 'var(--text-lg)', padding: '18px 45px' }}>
             اطلب الدليل عبر واتساب
           </a>
         </div>

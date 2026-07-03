@@ -117,20 +117,21 @@ const HeroSection = () => {
           <div>
             <div style={{ borderRadius: 30, overflow: 'hidden', marginBottom: 20, boxShadow: '0 20px 40px -15px rgba(0,0,0,0.2)' }}>
               <img
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop"
+                src="/images/hero_main.webp"
                 style={{ width: '100%', height: 320, objectFit: 'cover', display: 'block' }}
                 alt="AI Tools Guide"
+                loading="lazy"
               />
             </div>
             <div className="layout-3col">
               <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
-                <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=400&auto=format&fit=crop" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="AI Technology" />
+                <img src="/images/hero_ai.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="AI Technology" loading="lazy" />
               </div>
               <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
-                <img src="https://images.unsplash.com/photo-1655635643532-fa9ba2648cbe?q=80&w=400&auto=format&fit=crop" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Learning" />
+                <img src="/images/hero_learn.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Learning" loading="lazy" />
               </div>
               <div style={{ borderRadius: 20, overflow: 'hidden', aspectRatio: '1/1' }}>
-                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=400&auto=format&fit=crop" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Student" />
+                <img src="/images/hero_student.webp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Student" loading="lazy" />
               </div>
             </div>
           </div>
@@ -139,7 +140,7 @@ const HeroSection = () => {
 
         {/* Centered Buttons */}
         <div className="hero-buttons" style={{ display: 'flex', justifyContent: 'center', gap: 20, flexWrap: 'wrap', marginTop: 60, position: 'relative', zIndex: 2 }}>
-          <a href="https://wa.me/+201017346421" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر الواتساب">
+          <a href="https://wa.me/966575109308" target="_blank" rel="noopener noreferrer" className="btn-dark" aria-label="اطلب دليل الذكاء الاصطناعي عبر الواتساب">
             <MessageCircle size={20} />
             اطلب الدليل الآن
           </a>

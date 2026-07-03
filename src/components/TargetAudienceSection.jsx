@@ -77,7 +77,7 @@ const TargetAudienceSection = () => {
           {/* Left column: Image */}
           <div style={{ animation: 'aboutFadeLeft 0.8s ease-out 0.4s both', display: 'flex', flexDirection: 'column', height: '100%' }}>
             <div className="about-spirit-card" style={{ position: 'relative', borderRadius: 35, overflow: 'hidden', boxShadow: '0 25px 45px -12px rgba(0,0,0,0.2)', flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.5)' }}>
-              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: '100%', display: 'block', objectFit: 'contain' }} alt="Students" loading="lazy" decoding="async" />
+              <img src="/images/audience.webp" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'block', objectFit: 'cover' }} alt="Students" loading="lazy" decoding="async" />
             </div>
           </div>
 

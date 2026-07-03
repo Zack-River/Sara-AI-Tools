@@ -11,14 +11,14 @@
       { "label": "العمره", "url": "#umrah-final" },
       { "label": "تواصل معنا", "url": "#contact-form-pro" }
     ],
-    "phone": "0562685953",
-    "whatsappUrl": "https://wa.me/966562685953"
+    "phone": "057 510 9308",
+    "whatsappUrl": "https://wa.me/966575109308"
   },
   "hero": {
     "title1": "بوابتك لرحلة",
     "title2": "روحانية لا تُنسى",
     "subtitle": "نقدم لك أفضل خدمات الحج والعمرة والزيارة بخبرة تمتد لسنوات، لنضمن لك راحة البال والتفرغ للعبادة.",
-    "buttonPrimary": { "label": "احجز رحلتك الآن", "url": "https://wa.me/966544591931" },
+    "buttonPrimary": { "label": "احجز رحلتك الآن", "url": "https://wa.me/966575109308" },
     "buttonSecondary": { "label": "اكتشف خدماتنا", "url": "#transport-pro" },
     "stats": [
       { "value": "15K+", "label": "معتمر وزائر" },
@@ -26,9 +26,9 @@
       { "value": "50+", "label": "فندق فاخر" }
     ],
     "images": [
-      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/5db0f269417df8865ecdf81c8c83e18f.jpg",
-      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/1959325.jpg",
-      "https://al-zahraa-sa.com/wp-content/uploads/2024/09/photo_2024-03-31_23-53-48.jpg"
+      "/images/hero1.webp",
+      "/images/hero2.webp",
+      "/images/hero3.webp"
     ]
   },
   "about": {
@@ -70,21 +70,21 @@
         "desc": "حافلات حديثة ومكيفة توفر أقصى درجات الراحة للمجموعات",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/images.jpeg",
         "tags": ["مقاعد مريحة", "تكييف ممتاز", "إنترنت مجاني"],
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       },
       {
         "title": "سيارات عائلية",
         "desc": "سيارات واسعة تناسب العائلات مع سائقين ذوي خبرة وكفاءة",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/toyota_hiace_vip_001.jpg",
         "tags": ["خصوصية تامة", "مساحة واسعة", "أمان عالي"],
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       },
       {
         "title": "سيارات فاخرة",
         "desc": "خدمة نقل النخبة بسيارات فخمة لضمان تجربة سفر استثنائية",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/6db34960d70ceb21d58cfecffaf5f053-1.jpg",
         "tags": ["رفاهية مطلقة", "استقبال VIP", "خدمة سريعة"],
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       }
     ]
   },
@@ -100,7 +100,7 @@
         "type": "اقتصادية",
         "desc": "إقامة مريحة واقتصادية بأسعار تناسب الجميع",
         "features": ["غرف نظيفة ومريحة", "قريبة من المواصلات", "أسعار اقتصادية"],
-        "link": "https://wa.me/966544591931",
+        "link": "https://wa.me/966575109308",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/279495.jpg"
       },
       {
@@ -109,7 +109,7 @@
         "type": "مميزة",
         "desc": "توازن مثالي بين الراحة والسعر والجودة",
         "features": ["بوفيه إفطار", "خدمة غرف", "قريبة من الحرم"],
-        "link": "https://wa.me/966544591931",
+        "link": "https://wa.me/966575109308",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/fdd.jpg",
         "isFeatured": true
       },
@@ -119,7 +119,7 @@
         "type": "فاخرة",
         "desc": "فخامة ورفاهية مطلقة لإقامة استثنائية",
         "features": ["إطلالة على الحرم", "وجبات فاخرة", "خدمات VIP"],
-        "link": "https://wa.me/966544591931",
+        "link": "https://wa.me/966575109308",
         "image": "https://al-zahraa-sa.com/wp-content/uploads/2024/09/photo_5929157654859596415_y.jpg"
       }
     ],
@@ -140,21 +140,21 @@
         "badge": "برونزية",
         "days": "3 أيام",
         "desc": "إقامة اقتصادية مريحة ومواصلات حديثة",
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       },
       {
         "title": "رحلات عمره",
         "badge": "فضية",
         "days": "5 أيام",
         "desc": "إقامة فاخرة ووجبات إفطار وبرنامج سياحي",
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       },
       {
         "title": "رحلات عمره",
         "badge": "ذهبية",
         "days": "7 أيام",
         "desc": "باقة متكاملة إقامة 5 نجوم وجميع الوجبات",
-        "link": "https://wa.me/966544591931",
+        "link": "https://wa.me/966575109308",
         "isFeatured": true
       },
       {
@@ -162,7 +162,7 @@
         "badge": "ملكية",
         "days": "10 أيام",
         "desc": "أشمل رحلة إقامة فاخرة وبرامج دينية وثقافية",
-        "link": "https://wa.me/966544591931"
+        "link": "https://wa.me/966575109308"
       }
     ],
     "schedule": {
@@ -178,7 +178,7 @@
         { "name": "رحلة يوم الخميس", "type": "VIP", "days": "3 – 5 أيام", "highlight": true }
       ]
     },
-    "button": { "label": "سارع بالاتصال لحجز رحلتك الآن", "url": "https://wa.me/966544591931" }
+    "button": { "label": "سارع بالاتصال لحجز رحلتك الآن", "url": "https://wa.me/966575109308" }
   },
   "blog": {
     "badge": "مدونتنا",
@@ -225,8 +225,8 @@
     "titleHighlight": "لخدمتك",
     "description": "فريقنا متواجد على مدار الساعة للرد على استفساراتكم وحجوزاتكم. تواصل معنا وسنكون سعداء بخدمتكم.",
     "info": {
-      "whatsapp": "0562685953",
-      "phone": "544591931",
+      "whatsapp": "+966575109308",
+      "phone": "057 510 9308",
       "email": "info@al-zahraa-sa.com",
       "address": "الرياض - المملكة العربية السعودية",
       "hours": "نعمل على مدار الساعة طوال أيام الأسبوع"
@@ -258,8 +258,8 @@
     ],
     "contactTitle": "كن دائماً على تواصل معنا",
     "contact": {
-      "whatsapp": "0562685953",
-      "phone": "544591931",
+      "whatsapp": "+966575109308",
+      "phone": "057 510 9308",
       "email": "abozahre9@gmail.com"
     },
     "addressTitle": "العنوان",

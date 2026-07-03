@@ -1,29 +1,34 @@
 import React from 'react';
-import { Lightbulb, Library, Edit3, Mic, FileText, Video } from 'lucide-react';
+import { Lightbulb, CheckCheck, Library, Edit3, Mic, FileText, Video } from 'lucide-react';
 
 const features = [
   {
-    icon: <Library size={48} opacity={0.3} />,
+    // icon: <Library size={48} opacity={0.3} />,
+    icon: <CheckCheck size={48} opacity={0.3} />,
     title: 'تلخيص الكتب وملفات PDF',
     headerBg: 'linear-gradient(135deg, #0A192F, #1e3a6b)',
   },
   {
-    icon: <Edit3 size={48} opacity={0.3} />,
+    // icon: <Edit3 size={48} opacity={0.3} />,
+    icon: <CheckCheck size={48} opacity={0.3} />,
     title: 'أدوات لحل الواجبات مع الشرح',
     headerBg: 'linear-gradient(135deg, #1e3a6b, #0A192F)',
   },
   {
-    icon: <Mic size={48} opacity={0.3} />,
+    // icon: <Mic size={48} opacity={0.3} />,
+    icon: <CheckCheck size={48} opacity={0.3} />,
     title: 'أدوات للعروض التقديمية',
     headerBg: 'linear-gradient(135deg, #C5AD7C, #b89a6a)',
   },
   {
-    icon: <FileText size={48} opacity={0.3} />,
+    // icon: <FileText size={48} opacity={0.3} />,
+    icon: <CheckCheck size={48} opacity={0.3} />,
     title: 'أدوات للبحث الأكاديمي',
     headerBg: 'linear-gradient(135deg, #0A192F, #1e3a6b)',
   },
   {
-    icon: <Video size={48} opacity={0.3} />,
+    // icon: <Video size={48} opacity={0.3} />,
+    icon: <CheckCheck size={48} opacity={0.3} />,
     title: 'أدوات للفيديو والصور',
     headerBg: 'linear-gradient(135deg, #1e3a6b, #0A192F)',
   },

@@ -113,7 +113,7 @@ const WhyThisGuideSection = () => {
 
         {/* Main CTA */}
         <div style={{ textAlign: 'center', marginTop: 60, animation: 'proFadeUp 0.8s ease-out 0.4s both' }}>
-          <a href="https://wa.me/+201017346421" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          <a href="https://wa.me/966575109308" target="_blank" rel="noopener noreferrer" className="btn-primary">
             احصل على الدليل الآن
           </a>
         </div>
